@@ -1,0 +1,31 @@
+{
+  "name": "s3-cnpm",
+  "version": "1.0.0",
+  "description": "S3 storage wrapper for cnpm",
+  "main": "s3-cnpm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qubitdigital/s3-cnpm.git"
+  },
+  "keywords": [
+    "s3",
+    "cnpm",
+    "storage",
+    "aws"
+  ],
+  "author": "Karolis Narkevicius <karolis@qubitproducts.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qubitdigital/s3-cnpm/issues"
+  },
+  "homepage": "https://github.com/qubitdigital/s3-cnpm",
+  "dependencies": {
+    "knox": "^0.9.1",
+    "save-to": "^1.0.3",
+    "thunkify": "^2.1.2",
+    "when": "^3.5.0"
+  }
+}
