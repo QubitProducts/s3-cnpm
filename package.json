@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "S3 storage wrapper for cnpm",
   "main": "s3-cnpm.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:QubitProducts/s3-cnpm.git"
