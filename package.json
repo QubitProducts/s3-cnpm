@@ -27,5 +27,8 @@
     "save-to": "^1.0.3",
     "thunkify": "^2.1.2",
     "when": "^3.5.0"
+  },
+  "devDependencies": {
+    "kn-release": "^0.1.2"
   }
 }
