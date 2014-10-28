@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:qubitdigital/s3-cnpm.git"
+    "url": "git@github.com:QubitProducts/s3-cnpm.git"
   },
   "keywords": [
     "s3",
@@ -19,9 +19,9 @@
   "author": "Karolis Narkevicius <karolis@qubitproducts.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qubitdigital/s3-cnpm/issues"
+    "url": "https://github.com/QubitProducts/s3-cnpm/issues"
   },
-  "homepage": "https://github.com/qubitdigital/s3-cnpm",
+  "homepage": "https://github.com/QubitProducts/s3-cnpm",
   "dependencies": {
     "knox": "^0.9.1",
     "save-to": "^1.0.3",
