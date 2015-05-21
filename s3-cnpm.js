@@ -5,7 +5,7 @@ var path = require('path');
 var knox = require('knox');
 var when = require('when');
 var thunkify = require('thunkify');
-var saveTo = thunkify(require('save-to'));
+var cp = require('fs-cp');
 
 module.exports = function (config) {
   return new S3(config);
@@ -100,7 +100,7 @@ S3.prototype.download = function* (key, savePath) {
   var client = this.client;
   var filepath = this.getPath(key);
   var res = yield client.getFile(filepath);
-  yield saveTo(res, savePath);
+  yield cp(res, savePath);
 };
 
 /**
