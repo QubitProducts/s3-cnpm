@@ -2,7 +2,7 @@
 /** @author Karolis Narkevicius */
 
 var path = require('path');
-var knox = require('knox');
+var knox = require('knox-s3');
 var when = require('when');
 var thunkify = require('thunkify');
 var cp = require('fs-cp');
